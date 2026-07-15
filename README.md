@@ -1,0 +1,2 @@
+# spreadtrum-aosl
+aosl integrate
