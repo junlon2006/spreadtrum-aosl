@@ -14,9 +14,9 @@ int aosl_hal_get_uuid(char buf[], int buf_sz)
 
   s = tick_now + ts_sec;
 
-	srand (s);
-	t1 = rand ();
-	t2 = rand ();
+  srand (s);
+  t1 = rand ();
+  t2 = rand ();
 
   snprintf (buf, buf_sz, "%08x%08x%08x%08x", tick_now, ts_sec, t1, t2);
 
