@@ -20,7 +20,7 @@ MINCPATH += \
     MS_MMI_Main/source/mmi_app/app/aosl/include/kernel \
     MS_MMI_Main/source/mmi_app/app/aosl/platform/include \
     MS_MMI_Main/source/mmi_app/app/aosl/platform/include/hal \
-    MS_MMI_Main/source/mmi_app/app/aosl/platform/src/spreadtrum-8910ff/config
+    MS_MMI_Main/source/mmi_app/app/aosl/platform/src/spreadtrum-w217/config
 
 #
 # AOSL core - kernel
