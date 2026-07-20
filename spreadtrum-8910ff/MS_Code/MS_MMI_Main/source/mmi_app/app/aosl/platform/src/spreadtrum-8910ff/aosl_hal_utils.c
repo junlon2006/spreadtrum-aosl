@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include <hal/aosl_hal_time.h>
 
@@ -23,6 +24,6 @@ int aosl_hal_get_uuid(char buf[], int buf_sz)
 
 int aosl_hal_os_version (char buf [], int buf_sz)
 {
-  snprintf(buf, buf_sz, "%s", "spreadtrum 8910");
+  snprintf(buf, buf_sz, "%s", "spreadtrum-8910");
   return 0;
 }
